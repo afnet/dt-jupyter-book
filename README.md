@@ -48,3 +48,6 @@ The helper module for Github pages is already included in out-most `requirements
 ```bash
 ghp-import -n -p -f <NOB>/_build/html
 ```
+
+### Notes & Thoughts:
+* Could be better: If a file is moved, e.g. to a directory, the relative links in the document would be broken. But there is no warning.

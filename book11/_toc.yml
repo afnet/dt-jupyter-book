@@ -3,8 +3,19 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
-- file: added-contents
+defaults:
+  titlesonly: True
+parts:
+  - caption: Template documents
+    # numbered: False
+    chapters:
+    - file: from-template/summary
+      sections:
+      - file: from-template/markdown
+      - file: from-template/notebooks
+      - file: from-template/markdown-notebooks
+  - caption: Docs to docs
+    numbered: True
+    chapters:
+    - file: tst/added-contents
+      # title: Alternative title

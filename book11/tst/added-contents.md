@@ -26,4 +26,4 @@ for i in range(100):
     print('placeholder')
 ```
 
-Here is a [reference back to the intro](intro.md). Here's a ref to [](section-label-1).
+Here is a [reference back to the intro](../intro.md). Here's a ref to [](section-label-1).
