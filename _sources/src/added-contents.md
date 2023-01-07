@@ -17,11 +17,6 @@ kernelspec:
 
 This page contains some random components.
 
-(section-label-1)=
-## Cross-project refs
-Link to another {ref}`book11 <other-book:section-label-1>`
-
-
 ## Customized Prompts
 
 Prompt that is not selected

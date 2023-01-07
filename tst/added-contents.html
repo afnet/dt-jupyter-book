@@ -50,8 +50,10 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="General Index" href="../genindex.html" />
     <link rel="prev" title="Notebooks with MyST Markdown" href="../from-template/markdown-notebooks.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -155,6 +157,18 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    1. Trying different contents (.md)
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Other Site Info
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../genindex.html">
+   General Index
   </a>
  </li>
 </ul>
@@ -381,8 +395,18 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#first-section">
-   1.1. First section
+  <a class="reference internal nav-link" href="#cross-project-refs">
+   1.1. Cross-project refs
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#customized-prompts">
+   1.2. Customized Prompts
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#code-executed">
+   1.3. Code executed
   </a>
  </li>
 </ul>
@@ -405,8 +429,18 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#first-section">
-   1.1. First section
+  <a class="reference internal nav-link" href="#cross-project-refs">
+   1.1. Cross-project refs
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#customized-prompts">
+   1.2. Customized Prompts
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#code-executed">
+   1.3. Code executed
   </a>
  </li>
 </ul>
@@ -422,8 +456,27 @@ title="Print to PDF"
   <section class="tex2jax_ignore mathjax_ignore" id="trying-different-contents-md">
 <h1><span class="section-number">1. </span>Trying different contents (.md)<a class="headerlink" href="#trying-different-contents-md" title="Permalink to this headline">#</a></h1>
 <p>This page contains some random components.</p>
-<section id="first-section">
-<span id="section-label-1"></span><h2><span class="section-number">1.1. </span>First section<a class="headerlink" href="#first-section" title="Permalink to this headline">#</a></h2>
+<section id="cross-project-refs">
+<span id="section-label-1"></span><h2><span class="section-number">1.1. </span>Cross-project refs<a class="headerlink" href="#cross-project-refs" title="Permalink to this headline">#</a></h2>
+<p>Link to another <a class="reference external" href="https://afnet.github.io/book11/added-contents.html#section-label-1" title="(in Python)"><span class="xref std std-ref">book11</span></a></p>
+</section>
+<section id="customized-prompts">
+<h2><span class="section-number">1.2. </span>Customized Prompts<a class="headerlink" href="#customized-prompts" title="Permalink to this headline">#</a></h2>
+<p>Prompt that is not selected</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><style type="text/css">
+span.prompt1:before {
+  content: "💻 ";
+}
+</style><span class="prompt1"><span class="nb">cd</span><span class="w"> </span>&lt;folder&gt;</span>
+<span class="prompt1"><span class="nb">cd</span><span class="w"> </span>-</span>
+</pre></div></div><div class="highlight-default notranslate"><div class="highlight"><pre><style type="text/css">
+span.prompt2:before {
+  content: "🤖 ";
+}
+</style><span class="prompt2">vi<span class="w"> </span>/etc/wpa_supplicant.conf</span>
+</pre></div></div></section>
+<section id="code-executed">
+<h2><span class="section-number">1.3. </span>Code executed<a class="headerlink" href="#code-executed" title="Permalink to this headline">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># print 100 empty lines</span>
@@ -537,7 +590,7 @@ placeholder
 </div>
 </div>
 </div>
-<p>Here is a <a class="reference internal" href="../intro.html"><span class="doc std std-doc">reference back to the intro</span></a>. Here’s a ref to <a class="reference internal" href="#section-label-1"><span class="std std-ref">First section</span></a>.</p>
+<p>Here is a <a class="reference internal" href="../intro.html"><span class="doc std std-doc">reference back to the intro</span></a>. Here’s a ref to <a class="reference internal" href="#section-label-1"><span class="std std-ref">Cross-project refs</span></a>.</p>
 </section>
 </section>
 
@@ -574,6 +627,13 @@ placeholder
             <p class="prev-next-subtitle">previous</p>
             <p class="prev-next-title">Notebooks with MyST Markdown</p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="../genindex.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">General Index</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             </footer>
