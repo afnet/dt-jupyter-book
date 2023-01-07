@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Book11
+title: ThenBook11
 author: The Jupyter Book Community & JH
 logo: logo.sketchpad.png
 
@@ -30,3 +30,21 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  favicon: _static/dt-favicon/favicon.ico
+
+# # exclude certain source files
+# exclude_patterns: [pattern1/*, path/to/exclude.ipynb]
+
+# # build only files listed in _toc.yml
+# # IMPORTANT: https://jupyterbook.org/en/stable/structure/configure.html#disable-building-files-that-arent-in-the-table-of-contents
+# only_build_toc_files: true
+
+sphinx:
+  extra_extensions:
+    - sphinx-prompt
+    - sphinx_examples
+  config:
+    intersphinx_mapping:
+      other-book:
+        - "https://afnet.github.io/book11"
+        - null

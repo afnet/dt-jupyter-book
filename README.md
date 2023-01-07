@@ -50,4 +50,6 @@ ghp-import -n -p -f <NOB>/_build/html
 ```
 
 ### Notes & Thoughts:
+* Might be helpful for migration:
+    * [Template creation from ToC file](https://jupyterbook.org/en/stable/basics/create.html#create-book-files-from-a-table-of-contents)
 * Could be better: If a file is moved, e.g. to a directory, the relative links in the document would be broken. But there is no warning.

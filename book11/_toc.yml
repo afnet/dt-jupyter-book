@@ -6,6 +6,17 @@ root: intro
 defaults:
   titlesonly: True
 parts:
+  - caption: Docs to docs
+    maxdepth: 2  # displayed ToC
+    numbered: True
+    chapters:
+    - file: src/summary-formats
+      sections:
+      - file: src/common-markdown
+      - file: src/latex-constructs
+      - file: src/other-blocks
+    - file: src/ref-and-cross-ref
+      # title: Alternative title
   - caption: Template documents
     # numbered: False
     chapters:
@@ -14,8 +25,6 @@ parts:
       - file: from-template/markdown
       - file: from-template/notebooks
       - file: from-template/markdown-notebooks
-  - caption: Docs to docs
-    numbered: True
+  - caption: Other Site Info
     chapters:
-    - file: tst/added-contents
-      # title: Alternative title
+    - file: genindex
