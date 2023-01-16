@@ -17,3 +17,10 @@ cd <folder>
 vi /etc/wpa_supplicant.conf
 ```
 :::
+
+```{figure} ../logo.sketchpad.new.png
+:height: 150px
+:name: figure-example
+
+Here is a figure test
+```
